@@ -1,0 +1,44 @@
+#logo{
+    width: 200px;
+
+}
+.sargel{
+    background-color: seashell;
+    display: flex;
+    order: 4;
+    justify-content: space-between;
+    text-decoration: none;
+  
+}
+
+.but{
+    background-color: black;
+    font-size: large;
+    
+
+}
+button:hover{
+background-color: rgb(199, 79, 79);
+color: white;
+font-size: x-large;
+
+}
+.navi{
+    text-decoration: none;
+
+}
+.father{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr; 
+gap:10em ;
+width: 90%;
+}
+.img{
+    width: 300px;
+
+}
+
+h1{
+    background-color: seashell;
+}

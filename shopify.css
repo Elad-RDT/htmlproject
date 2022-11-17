@@ -1,0 +1,138 @@
+#logo{
+    width: 200px;
+
+}
+.sargel{
+    background-color: wheat;
+
+  
+}
+
+.but{
+    background-color: wheat;
+    border:  2px solid black;
+    font-size: x-large;
+    
+
+}
+button:hover{
+background-color: rgb(199, 79, 79);
+color: white;
+font-size: x-large;
+
+}
+.navi{
+    text-decoration: none;
+
+}
+h1{
+    background-color: rgba(70,70,70,255);
+    margin-bottom: 0;
+    
+    margin-top: 0;
+}
+.father{
+    display: grid;
+    
+    grid-template-columns:1fr 1fr, ;
+    grid-template-rows: 90% 10%;
+    height: 100%;
+    width: 100%;
+    
+
+    
+}
+#d1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+   
+    width: 100%;
+      
+   /* background-size: 700px;
+    /* background-repeat: no-repeat;
+    background-image: url(shopifyimg/womanback.jpg)
+
+ */
+}
+#d2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+   
+   
+
+    width: 100%;
+    
+/*    
+    background-image: url(shopifyimg/manhomeback.jpg);
+    background-repeat: no-repeat;
+    background-size: 750px
+     */
+}
+
+#d3{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.wow:hover{
+    filter: brightness(1.2);
+    text-align: none;
+
+}
+
+.now:hover{
+    filter: brightness(1.09);
+
+}
+body{
+    margin: 0;
+background-color: seashell;
+}
+body a{
+    text-decoration: none;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+    border-right: 1px solid white;
+  }
+  
+
+  
+  li:last-child{
+    border-right: none;
+    display: block;
+    color: white;
+    text-align: center;
+  
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  optgroup{
+    font-size: 20px;
+  }
+
+/* #soc select{
+    position: absolute;
+    display: none;
+} */
+
+
+
+
+
